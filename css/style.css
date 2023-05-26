@@ -1,0 +1,29 @@
+:root{
+    --mainColor :#24353f;
+    --secondColor:#4c82a1;
+}
+.bg-main{
+    background-color: var(--mainColor);
+}
+.bg-second{
+    background-color: var(--secondColor);
+}
+.text-main{
+    color: var(--mainColor);
+}
+.text-second{
+    color: var(--secondColor);
+}
+
+.mainShadow{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.container a{
+    text-decoration: none;
+}
+.container a:hover{
+    text-decoration: underline;
+}
+.cont{
+    height: 100vh;
+}
